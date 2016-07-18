@@ -1,0 +1,35 @@
+{
+    "name": "buddihism-online",
+    "version": "1.0.0",
+    "authors": [
+        "FangYun <fangyuncn@163.com>"
+    ],
+
+    "description": "",
+    "main": "index.html",
+    "moduleType": [
+        "node"
+    ],
+
+    "keywords": [
+        "Template",
+        "FrontEnd",
+        "Gulp",
+        "Modular"
+    ],
+
+    "license": "GPL",
+
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+
+    "dependencies": {
+        "bootstrap": "3.3.6",
+        "jquery": "2.1.4"    
+    }
+}

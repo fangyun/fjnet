@@ -1,0 +1,130 @@
+IMG {
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px
+}
+
+.clear {
+	HEIGHT: 0px;
+	CLEAR: both;
+	OVERFLOW: hidden
+}
+
+.spx_wen_bottom_content {
+	MARGIN-TOP: 2px;
+	MARGIN-LEFT: 5px
+}
+
+.spx_wen_bottom_banner {
+	LINE-HEIGHT: 25px;
+	WIDTH: 295px;
+	BACKGROUND: url(xinwen_001.jpg) repeat-x;
+	HEIGHT: 25px;
+	MARGIN-LEFT: 5px;
+	FONT-SIZE: 12px;
+	OVERFLOW: hidden
+}
+
+.c_left_img {
+	WIDTH: 140px;
+	HEIGHT: 86px;
+	OVERFLOW: hidden
+}
+
+.c_left_img IMG {
+	WIDTH: 140px;
+	HEIGHT: 86px
+}
+
+.c_left_zi {
+	TEXT-ALIGN: center;
+	WIDTH: 141px;
+	BACKGROUND: url(xinwen_0010_r20_c2.jpg) no-repeat;
+	HEIGHT: 11px;
+	FONT-SIZE: 14px;
+	OVERFLOW: hidden
+}
+
+.shipin_biaoti {
+	TEXT-ALIGN: center;
+	LINE-HEIGHT: 20px;
+	WIDTH: 140px;
+	BACKGROUND: #000;
+	HEIGHT: 20px;
+	COLOR: #ffffff;
+	FONT-SIZE: 12px
+}
+
+.shipin_biaoti A {
+	COLOR: #ffffff
+}
+
+.banner_zi {
+	LINE-HEIGHT: 28px;
+	PADDING-LEFT: 30px;
+	WIDTH: 100px;
+	BACKGROUND: url(xinwen_001_r15_c3.jpg) no-repeat 3px 8px;
+	FLOAT: left;
+	HEIGHT: 25px;
+	FONT-WEIGHT: 600
+}
+
+.spx_wen_bottom_c_right {
+	WIDTH: 140px;
+	DISPLAY: inline;
+	FLOAT: left;
+	MARGIN-LEFT: 5px;
+	OVERFLOW: hidden
+}
+
+.spx_wen_bottom_c_left {
+	WIDTH: 140px;
+	DISPLAY: inline;
+	FLOAT: left;
+	MARGIN-LEFT: 5px;
+	OVERFLOW: hidden
+}
+
+.spx_wen_bottom_c_right {
+	MARGIN-LEFT: 10px
+}
+
+.gengduo {
+	PADDING-RIGHT: 5px;
+	FLOAT: right
+}
+
+A {
+	COLOR: #000;
+	CURSOR: pointer;
+	TEXT-DECORATION: none
+}
+
+IMG {
+	BORDER-BOTTOM: 0px;
+	BORDER-LEFT: 0px;
+	BORDER-TOP: 0px;
+	BORDER-RIGHT: 0px
+}
+
+A {
+	BORDER-BOTTOM: 0px;
+	BORDER-LEFT: 0px;
+	BORDER-TOP: 0px;
+	BORDER-RIGHT: 0px
+}
+
+.spx_wen_top_right_img {
+	BORDER-BOTTOM: #f58f06 1px solid;
+	BORDER-LEFT: #f58f06 1px solid;
+	MARGIN-TOP: 2px;
+	DISPLAY: block;
+	BORDER-TOP: #f58f06 1px solid;
+	BORDER-RIGHT: #f58f06 1px solid
+}
+
+.spx_wen_top {
+	HEIGHT: 224px
+}

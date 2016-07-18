@@ -1,0 +1,185 @@
+	<script type="text/javascript">
+	<!--
+		function abh(server, login, display) {
+			if ((display.length == 0) || (display.indexOf('@') + 1)) {
+				document.write("<A href='mailto:"+login+"@"+server+"'>" + login
+						+ "@" + server + "</A>");
+			} else {
+				document.write("<A href='mailto:"+login+"@"+server+"'>"
+						+ display + "</A>");
+			}
+		}
+		-->
+	</script>
+	<div id="top_nav">
+		<div id="top_nav2">
+			<a
+				href="http://cn.fjnet.com/member/register.php?referer=http://www.fjnet.com"
+				target="_blank">注册 <span>VIP</span> 会员
+			</a>
+		</div>
+		<div id="top_nav3">
+			<img src="assets/img/top_nav_hyzhx.gif"> <a
+				href="http://cn.fjnet.com/member/" target="_blank">会员中心</a>
+		</div>
+		<div
+			style="width: 130px; float: left; padding-top: 8px; margin-left: 10px; line-height: 22px; color: #FF0000; font-weight: bold; height: 22px; overflow: hidden">佛门祈愿
+			福满人间：</div>
+		<div
+			style="float: left; width: 330px; padding-top: 8px; line-height: 22px; color: #FF0000; height: 22px; overflow: hidden">
+			<div style="width: 330px; overflow: hidden" onmouseover="stop()"
+				onmouseout="start()">
+				<table width="330" border="0" cellspacing="0" cellpadding="0"
+					id="scrollimg" height="21">
+					<tbody>
+						<tr>
+							<td id="simg">
+								<table width="850" border="0" cellspacing="0" cellpadding="0"
+									height="21">
+									<tbody>
+										<tr>
+											<td><a href="http://qf.fjnet.com/" target="_blank"
+												style="color: #FF0000; font-weight: normal">《来自佛门的吉祥祝福》祈福珍藏册
+													迎请电话：010-51656995、
+													010-51385788；QQ：179518763；邮箱：qf@fjnet.com</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+							<td id="simg1">
+								<table width="850" border="0" cellspacing="0" cellpadding="0"
+									height="21">
+									<tbody>
+										<tr>
+											<td><a href="http://qf.fjnet.com/" target="_blank"
+												style="color: #FF0000; font-weight: normal">《来自佛门的吉祥祝福》祈福珍藏册
+													迎请电话：010-51656995、
+													010-51385788；QQ：179518763；邮箱：qf@fjnet.com</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<script>
+				var tm = null
+				function newsScroll() {
+					if (scrollimg.parentNode.scrollLeft != (scrollimg.clientWidth / 2))
+						scrollimg.parentNode.scrollLeft++;
+					else
+						scrollimg.parentNode.scrollLeft = 0
+				}
+				if (document.all) {
+					window.attachEvent('onload', ole)//IE中
+				} else {
+					window.addEventListener('load', ole, false);//firefox
+				}
+				function ole() {
+					simg1.innerHTML = simg.innerHTML
+					tm = setInterval('newsScroll()', 15)
+				}
+				function stop() {
+					clearInterval(tm)
+				}
+
+				function start() {
+					tm = setInterval('newsScroll()', 15)
+				}
+			</script>
+		</div>
+
+		<div id="top_nav4">
+			<a href="javascript:void(0);"
+				onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.fjnet.com');"
+				class="gray"><img src="assets/img/top_nav_shwshy.gif">
+				设为首页</a><a href="javascript:void(0);"
+				onclick="window.external.addFavorite('http://www.fjnet.com','佛教在线')"
+				class="gray"> <img src="assets/img/top_nav_jrshc.gif">
+				加入收藏
+			</a><a href="/dh/dh.htm"> <img src="assets/img/top_nav_wzhdt.gif">
+				网站地图
+			</a>
+		</div>
+	</div>
+	<div id="middle_nav">
+		<div id="middle_nav_logol">
+			<a href="http://www.fjnet.com" target="_blank"><img
+				src="assets/img/W020110719584881254393.gif"
+				alt="middle_nav_logol.gif"></a>
+		</div>
+		<div id="middle_nav_xx"></div>
+		<div id="middle_nav_text">
+			<ul style="background: #ecf2fe;">
+				<li><a href="http://www.fjnet.com">首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
+				<li><a href="http://www.fjnet.com/rw/" target="_blank"
+					onclick="titClick('rwzf');" id="rwzf">人物专访</a></li>
+				<li><a href="http://www.fjnet.com/bty1/" target="_blank"
+					onclick="titClick('gd');" id="gd">观&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点</a></li>
+				<li><a href="http://www.fjnet.com/msgc/" target="_blank"
+					onclick="titClick('msgs');" id="msgs">名寺古刹</a></li>
+				<li><a href="http://music.fjnet.com/" target="_blank"
+					onclick="titClick('fjyy');" id="fjyy">佛教音乐</a></li>
+				<li><a href="http://news.fjnet.com/fjyy/" target="_blank"
+					onclick="titClick('wlxy');" id="wlxy">网络学院</a></li>
+				<li><a href="http://picture.fjnet.com/" target="_blank"
+					onclick="titClick('fjtp');" id="fjtp">佛教图片</a></li>
+				<li><a href="http://cn.fjnet.com/wenba/" target="_blank"
+					onclick="titClick('wf');" id="wf">问&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;佛</a></li>
+				<li><a href="http://bbs.fjnet.com" target="_blank"
+					onclick="titClick('bbs');" id="bbs">论&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;坛</a></li>
+				<li><a href="http://chat.fjnet.com/" target="_blank"
+					onclick="titClick('lts');" id="lts">聊&nbsp;天&nbsp;室</a></li>
+			</ul>
+			<ul>
+				<li><a href="http://www.fjnet.com/info/" target="_blank"
+					onclick="titClick('flxx');" id="flxx">分类信息</a></li>
+				<li><a href="http://baota.fjnet.com/" target="_blank"
+					onclick="titClick('jxbt');" id="jxbt">吉祥宝塔</a></li>
+				<li><a href="http://www.fjnet.com/fjlw/" target="_blank"
+					onclick="titClick('yjsb');" id="yjsb">学术论文</a></li>
+				<li><a href="http://dzj.fjnet.com/" target="_blank"
+					onclick="titClick('zjyq');" id="zjyq">藏经迎请</a></li>
+				<li><a href="http://www.club.cn/" target="_blank"
+					onclick="titClick('fhcy');" id="fhcy">福慧慈缘</a></li>
+				<li><a href="http://shop62146444.taobao.com/" target="_blank"
+					onclick="titClick('fsyp');" id="fsyp">佛事用品</a></li>
+				<li><a href="http://fjnet.taobao.com/" target="_blank"
+					onclick="titClick('tssc');" id="tssc">图书商城</a></li>
+				<li><a href="http://qf.fjnet.com/" target="_blank"
+					onclick="titClick('qifu');" id="qifu">祈福2013</a></li>
+				<li><a href="http://client.fjnet.com" target="_blank"
+					onclick="titClick('fyt');" id="fyt">佛&nbsp;&nbsp;缘&nbsp;&nbsp;通</a></li>
+				<li><a href="http://www.fjnet.com/bowen/" target="_blank"
+					onclick="titClick('fjwb');" id="fjwb">佛教微博</a></li>
+			</ul>
+			<ul style="background: #ecf2fe;">
+				<li><a href="http://www.fjnet.com/yydh/yydhnr/" target="_blank"
+					onclick="titClick('fjdy');" id="fjdy">佛教电影</a></li>
+				<li><a href="http://tw.fjnet.com/" target="_blank"
+					onclick="titClick('twpd');" id="twpd">台湾频道</a></li>
+				<li><a href="#" target="_blank" onclick="titClick('fdbk');"
+					id="fdbk">佛典宝库</a></li>
+				<li><a href="http://zcfj.fjnet.com/" target="_blank"
+					onclick="titClick('zcfj');" id="zcfj">藏传佛教</a></li>
+				<li><a href="http://nj.fjnet.com/" target="_blank"
+					onclick="titClick('fjnj');" id="fjnj">佛教年鉴</a></li>
+				<li><a href="http://news.fjnet.com/fmzx/" target="_blank"
+					onclick="titClick('fmzx');" id="fmzx">佛门资讯</a></li>
+				<li><a href="http://app.fjnet.com" target="_blank"
+					onclick="titClick('ydyy');" id="ydyy">移动应用</a></li>
+				<li><a href="#" target="_blank" onclick="titClick('brzm');"
+					id="brzm">般若之门</a></li>
+				<li><a href="http://news.fjnet.com/english/" target="_blank"
+					onclick="titClick('english');" id="english">ENGLISH</a></li>
+				<li><a href="http://search.fjnet.com/tougao/tougao/index.jsp"
+					target="_blank"
+					style="padding-left: 0px; padding-right: 0px; padding-top: 2px"><img
+						src="http://www.fjnet.com/images/middle_nav_button.gif" border="0"
+						width="58" height="21" id="Image1"
+						onmouseover="MM_swapImage('Image1','','../../../images/middle_nav_button1.gif',1)"
+						onmouseout="MM_swapImgRestore()"></a></li>
+			</ul>
+		</div>
+	</div>
