@@ -1,9 +1,21 @@
 {
-  "name": "buddhism",
-  "description": "Buddhism Online",
+  "name": "fjnet.com",
+  "description": "Prototype for fjnet.com",
   "version": "1.0.0",
-  "homepage": "http://www.fjnet.com",
+  "homepage": "https://github.com/fangyun/fjnet#readme",
+  "main": "gulpfile.js",
   "author": "Fang Yun",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fangyun/fjnet.git"
+  },
+  "keywords": [
+    "fjnet"
+  ],
+  "bugs": {
+    "url": "https://github.com/fangyun/fjnet/issues"
+  },
+  "license": "GPL-3.0",
   "devDependencies": {
       "autoprefixer": "^6.1.1",
       "del": "^2.1.0",
