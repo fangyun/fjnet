@@ -46,13 +46,13 @@
 }
 
 .panel-default {
-    border-color: #ddd;
+    border-color: #ff9900;
 }
 
 .panel-default>.panel-heading {
     color: #333;
     background-color: #f5f5f5;
-    border-color: #ddd;
+    border-color: #ff9900;
 }
 .panel-heading {
     padding: 10px 15px;
@@ -64,7 +64,7 @@
 .panel-footer {
     padding: 10px 15px;
     background-color: #f5f5f5;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #ff9900;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
 }
